@@ -139,7 +139,7 @@
 
 
 /* 自定义侧边栏在最左边，右边撑满宽度 */
-.VPDoc .container {
+/* .VPDoc .container {
   margin: 0 !important;
 }
 @media (min-width: 960px) {
@@ -169,7 +169,7 @@
   overflow-x: hidden;
   overflow-y: auto;
   scrollbar-width: none;
-}
+} */
 
 /* 自定义h2的间距 */
 .vp-doc h2 {

@@ -3,24 +3,26 @@
 layout: home
 
 hero:
-  name: "我的一点帅气项目"
+  name: "编程知识整理项目"
   text: "一个文档站点"
   tagline: 持续学习，持续进步
   image:
-    src: /圣诞礼物.png
+    src: /项目图片/图标.webp
   actions:
+
     - theme: brand
-      text: Markdown 示例
-      link: https://www.jd.com
+      text: 跳转到百度
+      link: https://www.baidu.com
+
     - theme: alt
       text: API 示例
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: 特征1的详细描述
-  - title: Feature B
-    details: 特征2的详细描述
-  - title: Feature C
-    details: 特征3的详细描述
+  - title: A
+    details: 强大的记录能力
+  - title: B
+    details: 轻松的编辑过程
+  - title: C
+    details: 舒爽的阅读体验
 
