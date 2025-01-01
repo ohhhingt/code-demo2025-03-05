@@ -11,6 +11,7 @@ export default defineConfig({
   ],
   title: "编程知识整理项目",
   description: "A VitePress Site",
+  base: '/code-demo/',
   themeConfig: {
     // 下面这两个out.. 设置右侧标题链接 点击可以快速跳转
     outlineTitle: "目录",
