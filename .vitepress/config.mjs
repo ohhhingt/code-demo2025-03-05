@@ -4,6 +4,8 @@ import {set_sidebar} from "../utils/auto_sidebar.mjs"; // 改成自己的路径(
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  // 暂时不理死链接
+  ignoreDeadLinks: true,
   // 浏览器地址栏的左边图标
   head: [["link", {rel: "icon",href: "/项目图片/小图标.svg"}]
   ],
