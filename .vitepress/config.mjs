@@ -10,6 +10,7 @@ export default defineConfig({
   head: [["link", {rel: "icon",href: "/项目图片/小图标.svg"}]
   ],
   title: "编程知识整理项目",
+  base: '/code-demo/',    // 正确设置
   description: "A VitePress Site",
   themeConfig: {
     // 下面这两个out.. 设置右侧标题链接 点击可以快速跳转
