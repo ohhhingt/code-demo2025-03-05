@@ -7,7 +7,7 @@ hero:
   text: "一个文档站点"
   tagline: 持续学习，持续进步
   image:
-    src: /项目图片/图标.webp
+    src: /collect/images/图标.webp
   actions:
 
     - theme: brand
