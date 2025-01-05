@@ -56,6 +56,7 @@ export default defineConfig({
     // 网址:https://vitepress.dev/zh/reference/default-theme-sidebar
 
     sidebar: [
+      // collect
       {
         text: 'collect',
         items: [
@@ -93,10 +94,11 @@ export default defineConfig({
         ],
         collapsed: true
       },
+      // heima
       {
         text: 'heima',
         items: [
-          // 01-html+css嵌套层级 展示
+          // 01-html+css
           {
             text: '01-html+css',
             items: [
@@ -106,11 +108,11 @@ export default defineConfig({
               { text: 'B站项目', link: '/heima/01-html+css/B站项目.md' },
               { text: 'css快捷键总结', link: '/heima/01-html+css/css快捷键总结.md' },
               { text: '课md文件', items: [
-                { text: '06-作业', link: '/heima/01-html+css/课md文件/6/day06--学成在线.md' },
-                { text: '07-作业', link: '/heima/01-html+css/课md文件/7/day07--学成在线.md' },
-                { text: '08-作业', link: '/heima/01-html+css/课md文件/8/day08-CSS高级.md' },
-                { text: '09-作业', link: '/heima/01-html+css/课md文件/9/day09-小兔鲜儿.md' },
-                { text: '10-作业', link: '/heima/01-html+css/课md文件/10/day10-小兔鲜儿.md' },
+                { text: '06-作业', link: '/heima/01-html+css/课md文件/day06--学成在线.md' },
+                { text: '07-作业', link: '/heima/01-html+css/课md文件/day07--学成在线.md' },
+                { text: '08-作业', link: '/heima/01-html+css/课md文件/day08-CSS高级.md' },
+                { text: '09-作业', link: '/heima/01-html+css/课md文件/day09-小兔鲜儿.md' },
+                { text: '10-作业', link: '/heima/01-html+css/课md文件/day10-小兔鲜儿.md' },
               ] }
             ],
             collapsed: true
@@ -122,12 +124,12 @@ export default defineConfig({
             items: [
               { text: '目录', link: '/heima/02-移动Web/know.md'},
               { text: '看视频的知识', link: '/heima/02-移动Web/看视频的知识.md'},
-              { text: '作业文件夹', items:[
-                { text: '01-作业', link: '/heima/02-移动Web/课md文件/1/移动Web第一天.md'},
-                { text: '02-作业', link: '/heima/02-移动Web/课md文件/2/移动Web第二天.md'},
-                { text: '03-作业', link: '/heima/02-移动Web/课md文件/3/移动Web第三天.md'},
-                { text: '04-作业', link: '/heima/02-移动Web/课md文件/4/移动Web第四天.md'},
-                { text: '05-作业', link: '/heima/02-移动Web/课md文件/5/移动Web第五天.md'},
+              { text: '课md文件', items:[
+                { text: '01-作业', link: '/heima/02-移动Web/课md文件/移动Web第一天.md'},
+                { text: '02-作业', link: '/heima/02-移动Web/课md文件/移动Web第二天.md'},
+                { text: '03-作业', link: '/heima/02-移动Web/课md文件/移动Web第三天.md'},
+                { text: '04-作业', link: '/heima/02-移动Web/课md文件/移动Web第四天.md'},
+                { text: '05-作业', link: '/heima/02-移动Web/课md文件/移动Web第五天.md'},
               ]},
             ],
             collapsed: true
@@ -141,9 +143,9 @@ export default defineConfig({
               { text: '目录', link: '/heima/03-javascript/目录.md'},
               { text: 'know', link: '/heima/03-javascript/know.md' },
               { text: '常见bug收集', link: '/heima/03-javascript/常见bug收集.md' },
+              // 03-javascript/视频知识
               {
-                // 03-javascript/知识
-                text: '知识',
+                text: '视频知识',
                   items: [
                     { text: 'js基础', link: '/heima/03-javascript/知识/js基础.md' },
                     { text: 'WebApi', link: '/heima/03-javascript/知识/WebApi.md' },
@@ -155,6 +157,7 @@ export default defineConfig({
                   ],
                 collapsed: true
               },
+              // 课md文件
               {
                 text: '课md文件',
                   items:[
@@ -172,59 +175,59 @@ export default defineConfig({
                     // WebApi
                     {
                       text: '02-WebApi', items: [
-                        { text: 'day01', link: '/heima/03-javascript/课md文件/02-WebApi/01-main-README.md' },
-                        { text: '01-作业', link: '/heima/03-javascript/课md文件/02-WebApi/01-work-作业.md' },
-                        { text: 'day02', link: '/heima/03-javascript/课md文件/02-WebApi/02-main-README.md' },
-                        { text: '02-作业', link: '/heima/03-javascript/课md文件/02-WebApi/02-work-作业.md' },
-                        { text: 'day03', link: '/heima/03-javascript/课md文件/02-WebApi/03-main-README.md' },
-                        { text: '03-作业', link: '/heima/03-javascript/课md文件/02-WebApi/03-work-作业.md' },
-                        { text: 'day04', link: '/heima/03-javascript/课md文件/02-WebApi/04-main-README.md' },
-                        { text: '04-作业', link: '/heima/03-javascript/课md文件/02-WebApi/04-work-作业.md' },
-                        { text: 'day05', link: '/heima/03-javascript/课md文件/02-WebApi/05-main-README.md' },
-                        { text: '05-作业', link: '/heima/03-javascript/课md文件/02-WebApi/05-work-作业.md' },
-                        { text: 'day06', link: '/heima/03-javascript/课md文件/02-WebApi/06-main-README.md' },
-                        { text: '06-作业', link: '/heima/03-javascript/课md文件/02-WebApi/06-work-作业.md' },
-                        { text: '06-实战文档', link: '/heima/03-javascript/课md文件/02-WebApi/06-actual-combat个人实战文档.md' }
+                        { text: 'day01', link: '/heima/03-javascript/课md文件/02-WebApi/01_main.md' },
+                        { text: '01-作业', link: '/heima/03-javascript/课md文件/02-WebApi/01_work.md' },
+                        { text: 'day02', link: '/heima/03-javascript/课md文件/02-WebApi/02_main.md' },
+                        { text: '02-作业', link: '/heima/03-javascript/课md文件/02-WebApi/02_work.md' },
+                        { text: 'day03', link: '/heima/03-javascript/课md文件/02-WebApi/03_main.md' },
+                        { text: '03-作业', link: '/heima/03-javascript/课md文件/02-WebApi/03_work.md' },
+                        { text: 'day04', link: '/heima/03-javascript/课md文件/02-WebApi/04_main.md' },
+                        { text: '04-作业', link: '/heima/03-javascript/课md文件/02-WebApi/04_work.md' },
+                        { text: 'day05', link: '/heima/03-javascript/课md文件/02-WebApi/05_main.md' },
+                        { text: '05-作业', link: '/heima/03-javascript/课md文件/02-WebApi/05_work.md' },
+                        { text: 'day06', link: '/heima/03-javascript/课md文件/02-WebApi/06_main.md' },
+                        { text: '06-作业', link: '/heima/03-javascript/课md文件/02-WebApi/06_work.md' },
+                        { text: '06-实战文档', link: '/heima/03-javascript/课md文件/02-WebApi/06-actual-combat.md' }
                       ],
                       collapsed: true
                     },
                     // js进阶
                     {
                       text: '03-js进阶', items: [
-                        { text: 'day01', link: '/heima/03-javascript/课md文件/03-js进阶/01-main-day01.md' },
-                        { text: '01-作业', link: '/heima/03-javascript/课md文件/03-js进阶/01-work-作业.md' },
-                        { text: 'day02', link: '/heima/03-javascript/课md文件/03-js进阶/02-main-day02.md' },
-                        { text: '02-作业', link: '/heima/03-javascript/课md文件/03-js进阶/02-work-作业.md' },
-                        { text: 'day03', link: '/heima/03-javascript/课md文件/03-js进阶/03-main-day03.md' },
-                        { text: '03-作业', link: '/heima/03-javascript/课md文件/03-js进阶/03-work-作业.md' },
-                        { text: 'day04', link: '/heima/03-javascript/课md文件/03-js进阶/04-main-day04.md' },
-                        { text: '04-作业', link: '/heima/03-javascript/课md文件/03-js进阶/04-work-作业.md' },
+                        { text: 'day01', link: '/heima/03-javascript/课md文件/03-js进阶/01_main.md' },
+                        { text: '01-作业', link: '/heima/03-javascript/课md文件/03-js进阶/01_work.md' },
+                        { text: 'day02', link: '/heima/03-javascript/课md文件/03-js进阶/02_main.md' },
+                        { text: '02-作业', link: '/heima/03-javascript/课md文件/03-js进阶/02_work.md' },
+                        { text: 'day03', link: '/heima/03-javascript/课md文件/03-js进阶/03_main.md' },
+                        { text: '03-作业', link: '/heima/03-javascript/课md文件/03-js进阶/03_work.md' },
+                        { text: 'day04', link: '/heima/03-javascript/课md文件/03-js进阶/04_main.md' },
+                        { text: '04-作业', link: '/heima/03-javascript/课md文件/03-js进阶/04_work.md' },
                       ],
                       collapsed: true
                     },
                     // AJAX
                     {
                       text: '04-AJAX', items: [
-                        { text: 'day01', link: '/heima/03-javascript/课md文件/04-AJAX/Day01-Main-AJAX入门.md' },
-                        { text: '01-作业', link: '/heima/03-javascript/课md文件/04-AJAX/Day01-Work-作业要求.md' },
-                        { text: 'day02', link: '/heima/03-javascript/课md文件/04-AJAX/Day02-Main-AJAX综合案例.md' },
-                        { text: '02-作业', link: '/heima/03-javascript/课md文件/04-AJAX/Day02-Work-作业要求.md' },
-                        { text: 'day03', link: '/heima/03-javascript/课md文件/04-AJAX/Day03-Main-AJAX原理.md' },
-                        { text: '03-作业', link: '/heima/03-javascript/课md文件/04-AJAX/Day03-Work-作业要求.md' },
-                        { text: 'day04', link: '/heima/03-javascript/课md文件/04-AJAX/Day04-Main-AJAX进阶.md' },
-                        { text: '04-作业', link: '/heima/03-javascript/课md文件/04-AJAX/Day04-Work-作业要求.md' }
+                        { text: 'day01', link: '/heima/03-javascript/课md文件/04-AJAX/01_AJAX入门.md' },
+                        { text: '01-作业', link: '/heima/03-javascript/课md文件/04-AJAX/01_work.md' },
+                        { text: 'day02', link: '/heima/03-javascript/课md文件/04-AJAX/02_AJAX综合案例.md' },
+                        { text: '02-作业', link: '/heima/03-javascript/课md文件/04-AJAX/02_work.md' },
+                        { text: 'day03', link: '/heima/03-javascript/课md文件/04-AJAX/03_AJAX原理.md' },
+                        { text: '03-作业', link: '/heima/03-javascript/课md文件/04-AJAX/03_work.md' },
+                        { text: 'day04', link: '/heima/03-javascript/课md文件/04-AJAX/04_AJAX进阶.md' },
+                        { text: '04-作业', link: '/heima/03-javascript/课md文件/04-AJAX/04_work.md' }
                       ],
                       collapsed: true
                     },
                     // Node
                     {
                       text: '05-Node', items: [
-                        { text: 'day01', link: '/heima/03-javascript/课md文件/05-Node/Day01-Main-Node.js入门.md' },
-                        { text: '01-作业', link: '/heima/03-javascript/课md文件/05-Node/Day01-Work-作业要求.md' },
-                        { text: 'day02', link: '/heima/03-javascript/课md文件/05-Node/Day02-Main-Node.js模块化.md' },
-                        { text: '02-作业', link: '/heima/03-javascript/课md文件/05-Node/Day02-Work-作业要求.md' },
-                        { text: 'day03', link: '/heima/03-javascript/课md文件/05-Node/Day03-Main-Webpack模块打包工具.md' },
-                        { text: '03-作业', link: '/heima/03-javascript/课md文件/05-Node/Day03-Work-作业要求.md' },
+                        { text: 'day01', link: '/heima/03-javascript/课md文件/05-Node/01_Node.js入门.md' },
+                        { text: '01-作业', link: '/heima/03-javascript/课md文件/05-Node/01_work.md' },
+                        { text: 'day02', link: '/heima/03-javascript/课md文件/05-Node/02_Node.js模块化.md' },
+                        { text: '02-作业', link: '/heima/03-javascript/课md文件/05-Node/02_work.md' },
+                        { text: 'day03', link: '/heima/03-javascript/课md文件/05-Node/03_Webpack模块打包工具.md' },
+                        { text: '03-作业', link: '/heima/03-javascript/课md文件/05-Node/03_work.md' },
                       ],
                       collapsed: true
                     }
@@ -240,18 +243,18 @@ export default defineConfig({
           {
             text: '04-Vue', items: [
               { text: 'know.md', link: '/heima/04-Vue/know.md'},
-              { text: 'day01', link: '/heima/04-Vue/课md文件/Day01-Main.md'},
-              { text: '01-作业', link: '/heima/04-Vue/课md文件/Day01-Work.md'},
-              { text: 'day02', link: '/heima/04-Vue/课md文件/Day02-Main.md'},
-              { text: '02-作业', link: '/heima/04-Vue/课md文件/Day02-Work.md'},
-              { text: 'day03', link: '/heima/04-Vue/课md文件/Day03-Main.md'},
-              { text: '03-作业', link: '/heima/04-Vue/课md文件/Day03-Work.md'},
-              { text: 'day04', link: '/heima/04-Vue/课md文件/Day04-Main.md'},
-              { text: '04-作业', link: '/heima/04-Vue/课md文件/Day04-Work.md'},
-              { text: 'day05', link: '/heima/04-Vue/课md文件/Day05-Main.md'},
-              { text: '05-作业', link: '/heima/04-Vue/课md文件/Day05-Work.md'},
-              { text: 'day06', link: '/heima/04-Vue/课md文件/Day06-Main.md'},
-              { text: 'day07', link: '/heima/04-Vue/课md文件/Day07-Main-面经H5端-Vant.md'},
+              { text: 'day01', link: '/heima/04-Vue/课md文件/01_main.md'},
+              { text: '01-作业', link: '/heima/04-Vue/课md文件/01_work.md'},
+              { text: 'day02', link: '/heima/04-Vue/课md文件/02_main.md'},
+              { text: '02-作业', link: '/heima/04-Vue/课md文件/02_work.md'},
+              { text: 'day03', link: '/heima/04-Vue/课md文件/03_main.md'},
+              { text: '03-作业', link: '/heima/04-Vue/课md文件/03_work.md'},
+              { text: 'day04', link: '/heima/04-Vue/课md文件/04_main.md'},
+              { text: '04-作业', link: '/heima/04-Vue/课md文件/04_work.md'},
+              { text: 'day05', link: '/heima/04-Vue/课md文件/05_main.md'},
+              { text: '05-作业', link: '/heima/04-Vue/课md文件/05_work.md'},
+              { text: 'day06', link: '/heima/04-Vue/课md文件/06_main.md'},
+              { text: 'day07', link: '/heima/04-Vue/课md文件/07_main_面经H5端_Vant.md'},
             ],
             collapsed: true
           }
