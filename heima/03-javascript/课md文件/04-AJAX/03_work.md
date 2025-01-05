@@ -24,7 +24,7 @@
 
 效果如下：配套标签和样式在文件夹内
 
-![hero_list](03_Work_assets/hero_list.gif)
+![hero_list](03_work_assets/hero_list.gif)
 
 
 
