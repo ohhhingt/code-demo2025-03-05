@@ -1,4 +1,3 @@
-// theme/index.js  
 import { h, ref } from 'vue'  
 import DefaultTheme from 'vitepress/theme'  
 import './style.css'  
@@ -19,18 +18,19 @@ export default {
       }  
     }  
 
-    return () => h(DefaultTheme.Layout, null, {  
-      // 自定义内容  
-      'default': () => isAuthenticated.value ? null : h('div', { class: 'password-container' }, [  
-        h('h2', '请输入密码'),  
-        h('input', {  
-          type: 'password',  
-          value: userPassword.value,  
-          onInput: (e) => userPassword.value = e.target.value,  
-        }),  
-        h('button', { onClick: checkPassword }, '提交')  
-      ])  
-    })  
+    return () => {  
+      return h(DefaultTheme.Layout, null, {  
+        default: () => isAuthenticated.value ? null : h('div', { class: 'password-container' }, [  
+          h('h2', '请输入密码'),  
+          h('input', {  
+            type: 'password',  
+            value: userPassword.value,  
+            onInput: (e) => userPassword.value = e.target.value,  
+          }),  
+          h('button', { onClick: checkPassword }, '提交'),  
+        ])  
+      })  
+    }  
   },  
   enhanceApp({ app, router, siteData }) {  
     // ...  
