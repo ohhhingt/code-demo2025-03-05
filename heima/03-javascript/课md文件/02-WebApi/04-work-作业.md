@@ -235,7 +235,7 @@ ${totalScore / list.length || 0}
 
 所以需要使用+号 转为数字型 如果有需要
 
-![11208](../04-作业/04-work-assets/8.png)
+![11208](./04-work-assets/8.png)
 
 ### 流程
 

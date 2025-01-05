@@ -18,7 +18,7 @@
 
 目标：完成如下评论列表效果
 
-![cmt-list](images/cmt-list.gif)
+![cmt-list](Day04-Work-images/cmt-list.gif)
 
 要求：
 

@@ -100,11 +100,11 @@ const list = [
 
 效果如下：
 
-![67837779484](assets/1678377794843.png)
+![67837779484](02-work-assets/1678377794843.png)
 
 ### 购物车案例
 
-<img src="./assets/11.gif">
+<img src="./02-work-assets/11.gif">
 
 **需求：**
 

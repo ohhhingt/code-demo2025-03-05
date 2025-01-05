@@ -101,7 +101,7 @@
 2. 基于 arr 计算 底部总价 和 总数量
 3. 注册事件 实现 删除功能
 
-<img src="./assets/11.gif">
+<img src="./04-work-assets/11.gif">
 
 ## 综合实战(勇于挑战)
 
@@ -163,13 +163,13 @@
 
 效果如下：
 
-<img src="./assets/33.gif">
+<img src="./04-work-assets/33.gif">
 
 **需求：**
 
 1. 实现点击编辑，出现编辑模态框（**标题文字也是编辑英雄 点击新增，标题则还是新增英雄**），并且里面会出现，待编辑的数据
 
-    ![image-20230214234348550](https://gitee.com/ukSir/web86/raw/master/assets/image-20230214234348550.png)
+    ![image-20230214234348550](https://gitee.com/ukSir/web86/raw/master/04-work-assets/image-20230214234348550.png)
 
 2. 在编辑框内可以修改英雄的信息，点击确认
     1. 关闭模态框

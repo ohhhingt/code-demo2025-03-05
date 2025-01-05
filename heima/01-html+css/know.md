@@ -38,9 +38,9 @@ span i 标签 垂直居中用 vertical-align: middle;
 
 最好使用textarea文本域 因为它可以自动换行
 
-![11171](../images/11-17/1.png)
+![11171]./images/11-17/1.png)
 
-![11171](../images/11-17/2.png)
+![11171]./images/11-17/2.png)
 
 ## 布局方式
 三大布局方式：弹盒(第一优先级)、定位、浮动(非必要不用)
@@ -204,7 +204,7 @@ span i 标签 垂直居中用 vertical-align: middle;
 中间那个盒子也下去 单纯的切换效果
 
 就是在a外面写一个 .activea类 用来切换
-![10102](../images/11-07/17.png){width=400px}
+![10102](./images/11-07/17.png){width=400px}
 
 #### 第二次的方案(已弃用)
 写一个状态类名 然后在这个类名中写
@@ -229,12 +229,12 @@ span i 标签 垂直居中用 vertical-align: middle;
 然后第三个盒子的结束位置要匹配第一个盒子的开始
 
 位置这样当动画结束 第三个盒子就会变回第一个盒子开始新一轮的动画
-![10211](../images/10-21/1.png){width=400px}
+![10211](./images/10-21/1.png){width=400px}
 
-![10212](../images/10-21/2.png){width=400px}
+![10212](./images/10-21/2.png){width=400px}
 
 其它方案关闭
-![10213](../images/10-21/3.png){width=400px}
+![10213](./images/10-21/3.png){width=400px}
 
 
 ### 又是一个不可能实现的想法
@@ -245,7 +245,7 @@ span i 标签 垂直居中用 vertical-align: middle;
     无法推动上面的盒子往上
 
 -   而且3号盒子 要下来时 2号盒子的收缩也是问题
-![10213](../images/10-24/往上增长的想法.png)
+![10213](./images/10-24/往上增长的想法.png)
 
 
 ## 版心盒子
@@ -275,15 +275,15 @@ span i 标签 垂直居中用 vertical-align: middle;
 3.  设置li的宽高 
 
 4.  li里面内容的设置(比如a的字体大小、字体颜色)
-![11072](../images/11-07/2.png){width=450px}
+![11072](./images/11-07/2.png){width=450px}
 
-![11073](../images/11-07/3.png){width=250px}
+![11073](./images/11-07/3.png){width=250px}
 
 ### 列表还是要用ul做 
 用ul做列表 比 div做列表 
 
 语义化好 简洁 好控制
-![11071](../images/11-07/1.png){width=250px}
+![11071](./images/11-07/1.png){width=250px}
 
 
 ## 三个盒子的横条
@@ -296,7 +296,7 @@ span i 标签 垂直居中用 vertical-align: middle;
 2.  同时ul还设置了内边距 把li卡在正中间
 
 3.  而中间的部分 因为宽设置比较大 所以 修改兴趣 跑右边去了
-![11074](../images/11-07/4.png){width=700px}
+![11074](./images/11-07/4.png){width=700px}
 
 ### 第二种方式
 三个横排摆放的东西 可以选中间的盒子设置左右边距 
@@ -307,13 +307,13 @@ span i 标签 垂直居中用 vertical-align: middle;
 解决a标签内行内元素和图片的垂直居中
 
 给img 设置vam就可以了
-![11075](../images/11-07/5.png)
-![11076](../images/11-07/6.png)
+![11075](./images/11-07/5.png)
+![11076](./images/11-07/6.png)
 
 修改前
-![11077](../images/11-07/7.png)
+![11077](./images/11-07/7.png)
 修改后
-![11078](../images/11-07/8.png)
+![11078](./images/11-07/8.png)
 
 ## a标签的HTML摆放和直接内容两端对齐
 a弹盒后两端对齐 就可以让
@@ -321,13 +321,13 @@ a弹盒后两端对齐 就可以让
 前端开发 和 后面的i标签 两端对齐
 
 html
-![11079](../images/11-07/9.png)
+![11079](./images/11-07/9.png)
 
 css
-![110710](../images/11-07/10.png)
+![110710](./images/11-07/10.png)
 
 效果
-![110711](../images/11-07/11.png){width=200px}
+![110711](./images/11-07/11.png){width=200px}
 
 ## 设置a的内边距 不用设置li的内边距 
 内层a的内边距设置
@@ -335,18 +335,18 @@ css
 这个内边距挤a的内容区就行了
 
 不用li去挤a的盒子
-![110712](../images/11-07/12.png){width=600px}
+![110712](./images/11-07/12.png){width=600px}
 
-![110713](../images/11-07/13.png){width=200px}
+![110713](./images/11-07/13.png){width=200px}
 
 ## 设置h3的内边距 而不是设置外层盒子对h3的内边距
 也是内边距的问题 挤h3的内容就可以了 不用right挤h3
 
 html
-![HTML](../images/也是内边距问题dom.png)
+![HTML](./images/也是内边距问题dom.png)
 
 css
-![CSS](../images/也是内边距问题css.png)
+![CSS](./images/也是内边距问题css.png)
 
 ## 盒子内容区水平垂直居中的方法
 
@@ -356,7 +356,7 @@ css
 
 
 ## js标签移入 div后 div不能折叠bug
-![102116](../images/11-07/16.png){width=200px}
+![102116](./images/11-07/16.png){width=200px}
 
 剪切里面的代码 之后删除重新放会原位
 
@@ -380,10 +380,7 @@ img
 table表格(绝对定位)
 
 h4(没设置高度就会塌陷)❗
-![1](../images/12-12/1.png){width=200px}
-
-## 1
-
+![1](./images/12-12/1.png){width=200px}
 
 
 

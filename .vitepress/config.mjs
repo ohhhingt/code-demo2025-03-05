@@ -80,6 +80,12 @@ export default defineConfig({
             items: [
               { text: 'java项目', link: '/collect/java/java项目.md' }
             ]
+          },
+          {
+            text: 'ui',
+            items: [
+              { text: 'ui', link: '/collect/ui/day01.md' }
+            ]
           }
 
         ],
