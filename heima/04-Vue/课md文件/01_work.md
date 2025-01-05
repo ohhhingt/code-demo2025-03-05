@@ -30,7 +30,7 @@
 
 **效果图需求如下：**(请根据提供的数据和模板渲染出所示效果)
 
- <img src="./01_Work_assets/哔哩哔哩首页.gif">
+ <img src="./01_work_assets/哔哩哔哩首页.gif">
 
 **具体需求如下：**
 
@@ -97,10 +97,10 @@
             <i class="iconfont ic_search_tab"></i>
           </a>
           <a href="#" class="face">
-            <img src="./01_Work_assets/login.png" alt="">
+            <img src="./01_work_assets/login.png" alt="">
           </a>
           <div class="app-btn">
-            <img src="./01_Work_assets/download.png" alt="">
+            <img src="./01_work_assets/download.png" alt="">
           </div>
         </div>
       </div>
@@ -269,7 +269,7 @@
 
 **效果图需求如下：**(请根据提供的数据和模板渲染出所示效果)
 
- <img src="./01_Work_assets/12306订单详情.gif">
+ <img src="./01_work_assets/12306订单详情.gif">
 
 **具体需求如下：**
 
@@ -486,7 +486,7 @@
 
 **效果图需求如下：**（请根据需求选择合适的标签/属性）
 
-  <img src="./01_Work_assets/boss直聘技能选择.gif">
+  <img src="./01_work_assets/boss直聘技能选择.gif">
 
 **具体需求如下：**
 
@@ -799,13 +799,13 @@ v-model
 
 在使用cdn引用vue核心包的时候，如果网络响应慢(可以将网络切换slow 3g模拟该效果)，会显示未编译的的页面，如图所示
 
-![](./01_Work_assets/v-cloak问题.jpg)
+![](./01_work_assets/v-cloak问题.jpg)
 
 ### 题目要求
 
 查阅Vue官方文档，学习`v-cloak`指令, 实现隐藏未编译的插值表达式，达到如下图所示效果
 
-![](./01_Work_assets/v-cloak效果.jpg)
+![](./01_work_assets/v-cloak效果.jpg)
 
 ### 参考教程
 
