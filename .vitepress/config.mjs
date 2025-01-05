@@ -5,8 +5,10 @@ export default defineConfig({
   base: '/code-demo/',    // 正确设置
   // 暂时不理死链接
   ignoreDeadLinks: true,
+  // 下面两个记录一下 public这一层是不用写的
+  // 直接/public下的 图片就好
   // 浏览器地址栏的左边图标(设置了code-demo后 这里要设置 但是header区那个不用)
-  head: [["link", {rel: "icon",href: "/code-demo/collect/images/小图标.svg"}]
+  head: [["link", {rel: "icon",href: "/code-demo/小图标.svg"}]
   ],
   title: "编程知识整理项目",
   description: "A VitePress Site",
@@ -16,7 +18,7 @@ export default defineConfig({
     // 默认只会生成2级标题 这里设置后会生成2~6级标题链接
     outline: [2, 6],
     // 设置header左侧logo
-    logo: '/collect/images/小图标.svg',
+    logo: '/小图标.svg',
     // 导航栏 下弹框
     nav: [
       // 导航栏名称 推荐写一级文件夹名称 
