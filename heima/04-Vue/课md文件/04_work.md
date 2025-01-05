@@ -30,7 +30,7 @@
 
 **效果图需求如下：**(请自定义`EvaluationScore.vue`组件实现如图所示的效果)
 
- <img src="./04_Work_assets/封装评价打分组件.gif">
+ <img src="./04_work_assets/封装评价打分组件.gif">
 
 **具体需求如下：**
 
@@ -46,7 +46,7 @@
 
 2. 使用示例：
 
-   <img src="./04_Work_assets/评价打分组件使用示例.png">	
+   <img src="./04_work_assets/评价打分组件使用示例.png">	
 
 3. 需求描述：
 
@@ -172,7 +172,7 @@ export default {
 
 **效果图需求如下：**(请设计按钮、弹层、提示框组件实现如下图所示效果)
 
- <img src="./04_Work_assets/封装按钮、弹层、提示框组件.gif">
+ <img src="./04_work_assets/封装按钮、弹层、提示框组件.gif">
 
 **具体需求如下：**
 
@@ -192,7 +192,7 @@ export default {
 
    - 使用示例：
 
-   <img src="./04_Work_assets/按钮组件使用示例.png">	
+   <img src="./04_work_assets/按钮组件使用示例.png">	
    
    - 需求描述：
    
@@ -219,7 +219,7 @@ export default {
 
    - 使用示例：
 
-   <img src="./04_Work_assets/弹层组件使用示例.png">	
+   <img src="./04_work_assets/弹层组件使用示例.png">	
 
    - 需求描述：
 
@@ -233,7 +233,7 @@ export default {
 
    - 使用示例：
 
-   <img src="./04_Work_assets/提示框组件使用示例.jpg">	
+   <img src="./04_work_assets/提示框组件使用示例.jpg">	
    
    - 需求描述：
    
@@ -337,25 +337,25 @@ export default {
 
 **已有效果**：
 
- <img src="./04_Work_assets/美团外卖订单求助中心.jpg">
+ <img src="./04_work_assets/美团外卖订单求助中心.jpg">
 
 **需求效果：**
 
- <img src="./04_Work_assets/美团外卖订单求助中心.gif">
+ <img src="./04_work_assets/美团外卖订单求助中心.gif">
 
 **增加需求如下：**
 
 1. 阅读代码，抽离组件：
 
    1. 将已有效果中**订单卡片**部分封装成组件`MyListItem`
-   2. 组件效果如图:<img src="./04_Work_assets/订单卡片组件.jpg">
+   2. 组件效果如图:<img src="./04_work_assets/订单卡片组件.jpg">
 2. 显示弹层：点击订单卡片中的帮助，**显示弹层**提示`确认帮忙处理此订单吗？`
 3. 删除数据：点击确定按钮关闭弹层，**删除**该条帮助数据
 4. 提示信息：删除数据后**提示**`转接成功，请尽快处理`,提示框`1s`后**消失**
 
 **提示：可以复用已封装的按钮、弹层、提示框组件，列表Mock数据结构如下图**
 
-<img src="./04_Work_assets/列表Mock数据的结构.jpg">
+<img src="./04_work_assets/列表Mock数据的结构.jpg">
 
 ### 3.2 相关素材
 
@@ -494,7 +494,7 @@ export default {
 
 自定义按钮组件的时候，需要接收父组件传递的`click`事件，再给`button`绑定`click`事件，`button`的`click`调用传入的`click`，才能实现给组件绑定事件，如图所示
 
- <img src="./04_Work_assets/native修饰符问题.jpg">
+ <img src="./04_work_assets/native修饰符问题.jpg">
 
 ### 题目要求
 
@@ -502,7 +502,7 @@ export default {
 
 ### 参考教程
 
- <img src="./04_Work_assets/native修饰符参考资料.jpg">
+ <img src="./04_work_assets/native修饰符参考资料.jpg">
 
 ### 相关素材
 
@@ -512,7 +512,7 @@ export default {
 
 使用组件：
 
- <img src="./04_Work_assets/native修饰符效果.jpg">
+ <img src="./04_work_assets/native修饰符效果.jpg">
 
 `MyButton.vue`组件代码：
 
