@@ -26,7 +26,7 @@
 
 **效果图需求如下：**(请根据提供的数据和模板渲染出所示效果)
 
- <img src="./02_work_Assets/百度云盘文件列表.gif">
+ <img src="./02_work_assets/百度云盘文件列表.gif">
 
 **具体需求如下：**
 
@@ -73,40 +73,40 @@
     <div id="app">
         <div class="head">
             <div class="logo">
-                <img width="100%" src="./02_work_Assets/logo.png" alt="">
+                <img width="100%" src="./02_work_assets/logo.png" alt="">
             </div>
             <div class="avtar">
-                <img src="./02_work_Assets/svip.png" alt="">
+                <img src="./02_work_assets/svip.png" alt="">
             </div>
         </div>
         <div class="container">
             <div class="nav">
                 <div class="nav-item active">
-                    <img src="./02_work_Assets/icon1.png" alt="">
+                    <img src="./02_work_assets/icon1.png" alt="">
                     首页
                 </div>
                 <div class="nav-item">
-                    <img src="./02_work_Assets/icon2.png" alt="">
+                    <img src="./02_work_assets/icon2.png" alt="">
                     收发
                 </div>
                 <div class="nav-item">
-                    <img src="./02_work_Assets/icon3.png" alt="">
+                    <img src="./02_work_assets/icon3.png" alt="">
                     同步
                 </div>
                 <div class="nav-item">
-                    <img src="./02_work_Assets/icon4.png" alt="">
+                    <img src="./02_work_assets/icon4.png" alt="">
                     消息
                 </div>
                 <div class="nav-item">
-                    <img src="./02_work_Assets/icon5.png" alt="">
+                    <img src="./02_work_assets/icon5.png" alt="">
                     相册
                 </div>
                 <div class="nav-item">
-                    <img src="./02_work_Assets/icon6.png" alt="">
+                    <img src="./02_work_assets/icon6.png" alt="">
                     笔记
                 </div>
                 <div class="nav-item">
-                    <img src="./02_work_Assets/icon7.png" alt="">
+                    <img src="./02_work_assets/icon7.png" alt="">
                     工具
                 </div>
             </div>
@@ -262,7 +262,7 @@
 
 **效果图需求如下：**(请根据提供的数据和模板渲染出所示效果)
 
- <img src="./02_work_Assets/小兔仙商品详情.gif">
+ <img src="./02_work_assets/小兔仙商品详情.gif">
 
 **具体需求如下：**
 
@@ -440,11 +440,11 @@ const app = new Vue({
 
 **已有效果**：
 
-![](./02_work_Assets/腾讯云设备管理.jpg)
+![](./02_work_assets/腾讯云设备管理.jpg)
 
 **需求效果：**
 
-![](./02_work_Assets/腾讯云设备管理.gif)
+![](./02_work_assets/腾讯云设备管理.gif)
 
 **增加需求如下：**
 
@@ -535,7 +535,7 @@ const app = new Vue({
         <!-- 左侧导航 -->
         <div class="nav">
             <div class="menu-item logo-head">
-                <img class="logo" src="./02_work_Assets/tencent-cloud.svg" alt="">
+                <img class="logo" src="./02_work_assets/tencent-cloud.svg" alt="">
             </div>
             <div class="menu-item">
                 首页
@@ -938,13 +938,13 @@ computed处理异步：
 
 在计算金额的时候，如果所给的数据为整数，使得计算结果看起来并不符合价格的规范，如图所示
 
-![](./02_work_Assets/filter问题.jpg)
+![](./02_work_assets/filter问题.jpg)
 
 ### 题目要求
 
 查阅Vue官方文档，学习`filter`过滤器, 实现对价格进行处理，显示2位小数，达到如下图所示效果
 
-![](./02_work_Assets/filter效果.jpg)
+![](./02_work_assets/filter效果.jpg)
 
 ### 参考教程
 
