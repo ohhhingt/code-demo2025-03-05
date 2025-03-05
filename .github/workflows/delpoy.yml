@@ -39,7 +39,7 @@ jobs:
       - name: Create .nojekyll file
         run: touch .vitepress/dist/.nojekyll
       - name: Upload artifact
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v2
         with:
           name: vitepress-site
           path: .vitepress/dist
