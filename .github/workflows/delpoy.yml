@@ -39,15 +39,15 @@ jobs:
       - name: Create .nojekyll file
         run: touch .vitepress/dist/.nojekyll
       - name: Upload artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v1
         with:
-          name: vitepress-site # Optional: name of the artifact
-          path: .vitepress/dist # Required: path to the directory or file to upload
+          name: vitepress-site
+          path: .vitepress/dist
 
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: steps.deployment.outputs.pageurl 
     needs: build
     runs-on: ubuntu-latest
     steps:
