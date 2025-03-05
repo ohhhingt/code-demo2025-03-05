@@ -42,18 +42,16 @@ export default defineConfig({
             link: '/heima/03-javascript/know.md'
           },
           {
+            text: 'Git',
+            link: '/heima/04-Git和黑马平台/know.md'
+          },
+          {
             text: 'Vue',
-            link: '/heima/04-Vue/know.md'
+            link: '/heima/05-06vue/know.md'
           }
         ],
       }
     ],
-
-    // 徒手写的侧边栏 这种写法会把所有的md文件列出来 无论你位于多深的层级
-    // 相对于(目录大全) 可以看到所有的md文件 这是第一种并排罗列所有text和link的结果
-    // ★第二种就是嵌套items:[](最多嵌套六层) 通过嵌套层级结构更加的清晰
-    // 此时使用嵌套层级还有另一个好处就是不用显示images文件夹了 这样图片文件夹就可以隐藏起来了
-    // 网址:https://vitepress.dev/zh/reference/default-theme-sidebar
 
     sidebar: [
       // collect
@@ -79,15 +77,10 @@ export default defineConfig({
             ]
           },
           {
-            text: 'java',
-            items: [
-              { text: 'java项目', link: '/collect/java/java项目.md' }
-            ]
-          },
-          {
             text: 'ui',
             items: [
-              { text: 'ui', link: '/collect/ui/day01.md' }
+              { text: 'day01', link: '/collect/ui/day01.md' },
+              { text: 'day02', link: '/collect/ui/day02.md' }
             ]
           }
 
@@ -106,6 +99,7 @@ export default defineConfig({
               { text: '目录', link: '/heima/01-html+css/目录.md' },
               { text: '技术总结', link: '/heima/01-html+css/know.md' },
               { text: 'B站项目', link: '/heima/01-html+css/B站项目.md' },
+              { text: 'css常用颜色(背)', link: '/heima/01-html+css/css常用颜色(背).md' },
               { text: 'css快捷键总结', link: '/heima/01-html+css/css快捷键总结.md' },
               { text: '课md文件', items: [
                 { text: '06-作业', link: '/heima/01-html+css/课md文件/day06--学成在线.md' },
@@ -239,22 +233,38 @@ export default defineConfig({
             collapsed: true
           },
 
-          // 04-Vue
+          // 04-Git和黑马平台
           {
-            text: '04-Vue', items: [
-              { text: 'know.md', link: '/heima/04-Vue/know.md'},
-              { text: 'day01', link: '/heima/04-Vue/课md文件/01_main.md'},
-              { text: '01-作业', link: '/heima/04-Vue/课md文件/01_work.md'},
-              { text: 'day02', link: '/heima/04-Vue/课md文件/02_main.md'},
-              { text: '02-作业', link: '/heima/04-Vue/课md文件/02_work.md'},
-              { text: 'day03', link: '/heima/04-Vue/课md文件/03_main.md'},
-              { text: '03-作业', link: '/heima/04-Vue/课md文件/03_work.md'},
-              { text: 'day04', link: '/heima/04-Vue/课md文件/04_main.md'},
-              { text: '04-作业', link: '/heima/04-Vue/课md文件/04_work.md'},
-              { text: 'day05', link: '/heima/04-Vue/课md文件/05_main.md'},
-              { text: '05-作业', link: '/heima/04-Vue/课md文件/05_work.md'},
-              { text: 'day06', link: '/heima/04-Vue/课md文件/06_main.md'},
-              { text: 'day07', link: '/heima/04-Vue/课md文件/07_main_面经H5端_Vant.md'},
+            text: '04-Git和黑马平台', items: [
+              { text: 'know.md', link: '/heima/04-Git和黑马平台/know.md' },
+              { text: 'day01', link: '/heima/04-Git和黑马平台/课md文件/01_main.md'},
+              { text: 'day02', link: '/heima/04-Git和黑马平台/课md文件/02_main.md'},
+              { text: 'day03', link: '/heima/04-Git和黑马平台/课md文件/03_main.md'},
+              { text: 'day04', link: '/heima/04-Git和黑马平台/课md文件/04_main.md'}
+            ],
+            collapsed: true
+          },
+
+          // 05-06vue
+          {
+            text: '05-06vue', items: [
+              { text: 'know.md', link: '/heima/05-06vue/know.md'},
+              { text: 'day01', link: '/heima/05-06vue/课md文件/01_main.md'},
+              { text: '01-作业', link: '/heima/05-06vue/课md文件/01_work.md'},
+              { text: 'day02', link: '/heima/05-06vue/课md文件/02_main.md'},
+              { text: '02-作业', link: '/heima/05-06vue/课md文件/02_work.md'},
+              { text: 'day03', link: '/heima/05-06vue/课md文件/03_main.md'},
+              { text: '03-作业', link: '/heima/05-06vue/课md文件/03_work.md'},
+              { text: 'day04', link: '/heima/05-06vue/课md文件/04_main.md'},
+              { text: '04-作业', link: '/heima/05-06vue/课md文件/04_work.md'},
+              { text: 'day05', link: '/heima/05-06vue/课md文件/05_main.md'},
+              { text: '05-作业', link: '/heima/05-06vue/课md文件/05_work.md'},
+              { text: 'day06', link: '/heima/05-06vue/课md文件/06_main.md'},
+              { text: 'day07', link: '/heima/05-06vue/课md文件/07_main.md'},
+              { text: 'day08', link: '/heima/05-06vue/课md文件/08_main.md'},
+              { text: 'day09', link: '/heima/05-06vue/课md文件/09_main.md'},
+              { text: 'day10', link: '/heima/05-06vue/课md文件/10_main.md'},
+              { text: 'day11', link: '/heima/05-06vue/课md文件/11_main.md'},
             ],
             collapsed: true
           }

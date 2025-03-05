@@ -69,6 +69,25 @@ script方式不可行
 
 https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.mjs 
 
+## 图片文件夹 图片命名 图片大小规定
+### 图片文件夹
+如果二级文件夹下有多个md文件 使用多个ProjectABC文件夹对应上去
+
+然后在config.js中再修改为要显示的文件夹就好了
+
+![11](./images/11.png)
+
+如果说二级文件夹下 只有一个md文件 那么不用ProjectABC文件夹
+
+直接放图片就好
+
+![12](./images/12.png)
+
+### 图片命名
+直接使用次序 最干净 就算乱序也没事 但能按照1234排列最好
+
+### 图片不要太大 也不要太小 不然需要使用{width=300px}这种来调整 浪费时间
+
 ## vitepress官网的 markdown书写语法
 https://vitepress.dev/guide/markdown 
 
@@ -133,6 +152,42 @@ config.mjs中的sidebar中设置侧边栏
 
 ## md文档中 加网址可能报错 可能使用```包裹
 ![9](./images/9.png){width=600px}
+
+## 网盘文件夹和主要文件夹命名规则
+01_main_assets(未使用💩) = 01_assets(正在使用)
+01_work_assets(正在使用)
+
+图片文件夹
+01_assets
+01_work_assets
+
+md文件
+01_main
+01_work
+
+# 部署
+## 部署排错
+1. 整理好code-demo的错误
+1-1. 控制台错误
+1-2. 构建时 无效连接错误
+1-3. 图标路径错误
+Files in the public directory are served at the root path.
+Instead of /public/11-17/1.png, use /11-17/1.png.
+
+1-5 减少项目体积 然后部署后看看路由是否正常
+
+或者在现有基础上减少文件夹看看能不能路由跳转
+
+1-6 文件夹全英文、缩短英文单词长度
+
+
+2. 尝试构建该项目
+
+3. 如果成功 推送到github仓库 更新仓库内容 
+
+已经成功 但是没有样式
+
+4. 打开手机移动端调试
 
 
 
