@@ -269,7 +269,9 @@
 
 ### 讲解
 
-1. [Webpack 配置]([https://webpack.docschina.org/concepts/#entry](https://webpack.docschina.org/concepts/))：影响 Webpack 打包过程
+1. [Webpack 配置](https://webpack.docschina.org/concepts/#entry)：影响 Webpack 打包过程
+
+[Webpack 配置](https://webpack.docschina.org/concepts/)
 
 2. 步骤：
 
@@ -974,7 +976,9 @@
 
 ### 讲解
 
-1. [解析别名]([https://webpack.docschina.org/configuration/resolve#resolvealias](https://webpack.docschina.org/configuration/resolve))：配置模块如何解析，创建 import 或 require 的别名，来确保模块引入变得更简单
+1. [解析别名](https://webpack.docschina.org/configuration/resolve#resolvealias)：配置模块如何解析，创建 import 或 require 的别名，来确保模块引入变得更简单
+
+[解析别](https://webpack.docschina.org/configuration/resolve)
 
 2. 例如：
 

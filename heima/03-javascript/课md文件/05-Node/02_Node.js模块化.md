@@ -492,7 +492,7 @@
 
 ### 讲解
 
-1. npm 简介[链接]([http://dev.nodejs.cn/learn/an-introduction-to-the-npm-package-manager#npm-%E7%AE%80%E4%BB%8B](http://dev.nodejs.cn/learn/an-introduction-to-the-npm-package-manager))： 软件包管理器，用于下载和管理 Node.js 环境中的软件包
+1. npm 简介[链接](死链接)： 软件包管理器，用于下载和管理 Node.js 环境中的软件包
 
    ![image-20230331155406652](02_assets/image-20230331155406652.png)
 
@@ -922,7 +922,7 @@
 
 3. 网页出现跨域访问时，会在浏览器控制里报错如下：
 
-   > Access to XMLHttpRequest 意思为：XHR 链接出了问题，从一个源（http://localhost:5500 跨域访问 http://localhost:3000）
+   > Access to XMLHttpRequest 意思为：XHR 链接出了问题，从一个源`（http://localhost:5500 跨域访问 http://localhost:3000）`
 
    ![image-20230331181439053](02_assets/image-20230331181439053.png)
 
